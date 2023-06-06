@@ -38,25 +38,25 @@
             class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-regular"
           >
             <li>
-              <a
-                href="#"
+              <RouterLink
+                to="/"
                 class="block py-2 pl-3 pr-4 text-white bg-indigo-600 rounded md:bg-transparent md:text-indigo-600 md:p-0"
                 aria-current="page"
-                >Home</a
+                >Home</RouterLink
               >
             </li>
             <li>
-              <a
-                href="#"
+              <RouterLink
+                to="/categories"
                 class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-indigo-600 md:p-0"
-                >Categories</a
+                >Categories</RouterLink
               >
             </li>
             <li>
-              <a
-                href="#"
+              <RouterLink
+                to="/pricing"
                 class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-indigo-600 md:p-0 "
-                >Pricing</a
+                >Pricing</RouterLink
               >
             </li>
             <li>
